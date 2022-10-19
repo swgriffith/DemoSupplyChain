@@ -14,6 +14,7 @@ jobs:
           scan-type: 'fs'
           security-checks: 'vuln,config,secret'
           hide-progress: false
+          exit-code: 1
           format: 'sarif'
           output: 'trivy-results.sarif'
 
