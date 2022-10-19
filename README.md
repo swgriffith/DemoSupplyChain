@@ -183,5 +183,5 @@ az aks create \
 
 az aks get-credentials -g $RG -n $CLUSTER_NAME
 
-PAT=
+PAT=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
 ```
